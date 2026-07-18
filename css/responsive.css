@@ -1,0 +1,52 @@
+/* =============================================
+   HOLUTION — Responsive
+   ============================================= */
+
+@media (max-width: 900px) {
+    .split-layout, .hero-container {
+        flex-direction: column;
+        gap: 3rem;
+    }
+    
+    .split-left {
+        flex: none;
+    }
+    
+    .large-text {
+        font-size: 1.5rem;
+    }
+    
+    .project-item {
+        flex-direction: column;
+        gap: 1rem;
+    }
+    
+    .project-meta {
+        justify-content: flex-start;
+    }
+    
+    .form-row {
+        flex-direction: column;
+        gap: 2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+    }
+    
+    .hamburger {
+        display: flex;
+    }
+    
+    .stats-grid {
+        flex-direction: column;
+        gap: 2rem;
+    }
+    
+    .contact-links {
+        flex-direction: column;
+        gap: 1rem;
+    }
+}
